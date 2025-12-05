@@ -109,8 +109,8 @@ fractal-sparse-origin-hypothesis/
 │  ├─ FSOH_paper.pdf         # Main paper (to be added)
 │  └─ notes/                 # Additional notes or slides
 ├─ src/
-│  ├─ fsoh_core.py           # Core model abstractions (planned)
-│  ├─ fsoh_fractal_field.py  # Fractal field generators (planned)
+│  ├─ fsoh_core.py           # Core model abstractions 
+│  ├─ fsoh_fractal_field.py  # Fractal field generators 
 │  ├─ fsoh_constraints.py    # Multi-layer constraints (planned)
 │  └─ fsoh_simulation.py     # Simple simulations / experiments (planned)
 ├─ notebooks/
