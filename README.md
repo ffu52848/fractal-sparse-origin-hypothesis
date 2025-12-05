@@ -164,17 +164,17 @@ This hypothesis is formally archived on Zenodo:
 
 ## 9. Citation
 
-If you use or reference the Fractal Sparse-Origin Hypothesis (FSOH), please cite:
+If you reference or build upon the Fractal Sparse-Origin Hypothesis (FSOH), please cite:
 
-**Author, A. (2025).  
+**Ku, Yung-Cheng. (2025).  
 Fractal Sparse-Origin Hypothesis (FSOH): A Fractal Model of Life Emergence and Distribution.  
 Zenodo. https://doi.org/10.5281/zenodo.17787315**
 
 ### BibTeX
 
 ```bibtex
-@misc{FSOH_2025,
-  author       = {Author, A.},
+@misc{Ku_FSOH_2025,
+  author       = {Ku, Yung-Cheng},
   title        = {Fractal Sparse-Origin Hypothesis (FSOH): A Fractal Model of Life Emergence and Distribution},
   year         = {2025},
   publisher    = {Zenodo},
