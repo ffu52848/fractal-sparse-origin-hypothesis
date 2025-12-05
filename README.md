@@ -106,7 +106,7 @@ This repository focuses solely on **FSOH as a stand-alone hypothesis**, while ke
 fractal-sparse-origin-hypothesis/
 ├─ README.md                  # This document
 ├─ docs/
-│  ├─ FSOH_paper.pdf         # Main paper (to be added)
+│  ├─ FSOH_paper.pdf         # Main paper 
 │  └─ notes/                 # Additional notes or slides
 ├─ src/
 │  ├─ fsoh_core.py           # Core model abstractions 
