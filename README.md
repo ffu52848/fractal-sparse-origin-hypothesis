@@ -125,7 +125,9 @@ fractal-sparse-origin-hypothesis/
 └─ figures/
    └─ *.png                  # Diagrams, visualizations (planned)
 
-## 7. How to Use (Future Code Plan)
+---
+
+##  7. How to Use (Future Code Plan)
 
 Once the Python modules are added, a minimal usage pattern may look like:
 
