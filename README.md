@@ -124,3 +124,20 @@ fractal-sparse-origin-hypothesis/
 │  └─ FSOH_demo.ipynb        # Example Jupyter notebook (planned)
 └─ figures/
    └─ *.png                  # Diagrams, visualizations (planned)
+
+## 7. How to Use (Future Code Plan)
+
+Once the Python modules are added, a minimal usage pattern may look like:
+
+```python
+from fsoh_core import SparseOriginModel
+
+model = SparseOriginModel(
+    domain_size=1024,
+    fractal_dimension=1.6,
+    constraint_layers=3,
+    seed=42,
+)
+
+result = model.run_simulation()
+model.plot(result)
