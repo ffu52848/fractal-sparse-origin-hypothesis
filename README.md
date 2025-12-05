@@ -93,21 +93,14 @@ Future code in this repository will implement toy models of:
 FSOH is designed to be compatible with several other theoretical frameworks by the same author, including (not implemented here yet):
 
 - **Fractal Dark Matter Model (FDM)**  
-  As a structural background for matter and energy distribution.
-
 - **Anthropic Fractal Selection Model (AFSM)**  
-  As a formalization of observer-based selection effects.
-
 - **ASIT (Absolute Space–Interface Topology)**  
-  As a geometric framework for discussing “interfaces” between regions and scales.
 
 This repository focuses solely on **FSOH as a stand-alone hypothesis**, while keeping interfaces open for future integration.
 
 ---
 
 ## 6. Repository Structure (Planned)
-
-Planned structure for this repository:
 
 ```text
 fractal-sparse-origin-hypothesis/
@@ -124,7 +117,15 @@ fractal-sparse-origin-hypothesis/
 │  └─ FSOH_demo.ipynb        # Example Jupyter notebook (planned)
 └─ figures/
    └─ *.png                  # Diagrams, visualizations (planned)
+```
 
+---
+
+## 7. How to Use (Future Code Plan)
+
+Once the Python modules are added, a minimal usage pattern may look like:
+
+```python
 from fsoh_core import SparseOriginModel
 
 model = SparseOriginModel(
@@ -136,3 +137,55 @@ model = SparseOriginModel(
 
 result = model.run_simulation()
 model.plot(result)
+```
+
+This is **illustrative only** and does not represent a finalized API.
+
+---
+
+## 8. Documentation and Paper
+
+The formal exposition of FSOH, including:
+
+- Detailed axioms  
+- Mathematical framework  
+- Conceptual implications for astrobiology  
+- Possible observational consequences  
+
+will be provided in the accompanying paper under `docs/` once uploaded.
+
+If mirrored on Zenodo, the DOI will be added here.
+
+---
+
+## 9. Citation (Template)
+
+```text
+Author, A. (Year).
+Fractal Sparse-Origin Hypothesis (FSOH): A Fractal Model of Life Emergence and Distribution.
+Zenodo. https://doi.org/XXXXXXXXXXXX
+```
+
+BibTeX:
+
+```bibtex
+@misc{FSOH_Year,
+  author       = {Author, A.},
+  title        = {Fractal Sparse-Origin Hypothesis (FSOH): A Fractal Model of Life Emergence and Distribution},
+  year         = {Year},
+  publisher    = {Zenodo},
+  doi          = {10.XXXX/XXXXXXXXXXXX},
+  url          = {https://doi.org/10.XXXX/XXXXXXXXXXXX}
+}
+```
+
+---
+
+## 10. License / Rights
+
+By default, all rights are reserved by the author unless explicitly stated otherwise.
+
+If you wish to reuse or adapt the contents of this repository,  
+please contact the author or refer to future updates of this section.
+
+---
