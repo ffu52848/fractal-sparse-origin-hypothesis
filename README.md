@@ -28,75 +28,49 @@ it does not depend on any specific biochemistry, but rather on abstract constrai
 FSOH is built on the following conceptual pillars:
 
 - **Fractal Structure**  
-  The universe exhibits nested structures (from large-scale cosmic web down to planetary environments).  
-  FSOH assumes that *life-eligible regions* follow a similar nested pattern.
-
 - **Sparse Origin**  
-  Even within life-friendly zones, the *actual* emergence of life is **highly suppressed** and occurs only in a small subset of possible sites.
-
 - **Constraint Layers**  
-  The model separates constraints into multiple layers (e.g. cosmic, galactic, planetary, micro-environmental), each acting as a “filter” that reduces the probability of life.
+- **Effective Observational Bias**
 
-- **Effective Observational Bias**  
-  Any observer (such as humans) will, by construction, find themselves in a rare, high-constraint-satisfied region, creating strong selection effects.
+These elements collectively imply that life is extraordinarily rare and strongly clustered in fractal-like “habitable nodes.”
 
 ---
 
 ## 3. Axioms (Conceptual Form)
 
-FSOH can be summarized by a small set of axioms.  
-The exact mathematical formalizations are left to the accompanying paper, but the logical form is:
-
 **Axiom 1 – Fractal Habitat Structure**  
-The set of regions that can in principle host life can be represented as a **fractal subset** of the underlying physical space (or state space), with non-trivial dimension \( D_f \) and strong scale dependence.
-
 **Axiom 2 – Multi-Layer Constraints**  
-The probability that life can *emerge* in a given region is determined by the intersection of multiple constraint layers:
-\[
-\mathcal{C} = \mathcal{C}_{\text{cosmic}} \cap \mathcal{C}_{\text{galactic}} \cap \mathcal{C}_{\text{stellar}} \cap \mathcal{C}_{\text{planetary}} \cap \mathcal{C}_{\text{micro}}
-\]
-
 **Axiom 3 – Sparse Effective Origin**  
-Even in regions that satisfy all constraints \(\mathcal{C}\), the actual emergence of life is governed by an additional suppression factor, resulting in a **sparse set** of realized origins.
+**Axiom 4 – Observer Selection**
 
-**Axiom 4 – Observer Selection**  
-All observations of “typical” environments are intrinsically biased by the existence of observers.  
-Thus, observable habitats are not representative of the global ensemble, but of a *filtered* subset extremely biased toward life-permitting conditions.
+(Equations and full logical derivations included in the paper.)
 
 ---
 
 ## 4. Model Structure (Conceptual Skeleton)
 
-In a simplified form, FSOH can be expressed as:
+A simplified mapping:
 
-- A **state space** \( S \) of possible regions/environments  
-- A **fractal mask** \( F \subset S \) selecting structurally eligible regions  
-- A **constraint operator** \( \mathcal{K} \) applying multi-layer filters  
-- A **sparse origin operator** \( \mathcal{O} \) assigning actual life emergence  
-
-Schematically:
 \[
 S \xrightarrow{F} S_F \xrightarrow{\mathcal{K}} S_{\text{eligible}} \xrightarrow{\mathcal{O}} S_{\text{life}}
 \]
 
-Future code in this repository will implement toy models of:
+Future code will include:
 
-- Generating fractal subsets of a domain  
-- Applying layered constraints  
-- Measuring the sparsity and clustering of life-origin candidates  
-- Visualizing the resulting distributions  
+- Fractal region generators  
+- Constraint layer operators  
+- Sparse-origin sampling  
+- Visualization tools  
 
 ---
 
 ## 5. Relation to Other Models
 
-FSOH is designed to be compatible with several other theoretical frameworks by the same author, including (not implemented here yet):
+FSOH is compatible with:
 
-- **Fractal Dark Matter Model (FDM)**  
-- **Anthropic Fractal Selection Model (AFSM)**  
-- **ASIT (Absolute Space–Interface Topology)**  
-
-This repository focuses solely on **FSOH as a stand-alone hypothesis**, while keeping interfaces open for future integration.
+- **FDM** (Fractal Dark Matter Model)  
+- **AFSM** (Anthropic Fractal Selection Model)  
+- **ASIT** (Absolute Space–Interface Topology)
 
 ---
 
@@ -104,26 +78,24 @@ This repository focuses solely on **FSOH as a stand-alone hypothesis**, while ke
 
 ```text
 fractal-sparse-origin-hypothesis/
-├─ README.md                  # This document
+├─ README.md
 ├─ docs/
-│  ├─ FSOH_paper.pdf         # Main paper (to be added)
-│  └─ notes/                 # Additional notes or slides
+│  ├─ FSOH_paper.pdf
+│  └─ notes/
 ├─ src/
-│  ├─ fsoh_core.py           # Core model abstractions (planned)
-│  ├─ fsoh_fractal_field.py  # Fractal field generators (planned)
-│  ├─ fsoh_constraints.py    # Multi-layer constraints (planned)
-│  └─ fsoh_simulation.py     # Simple simulations / experiments (planned)
+│  ├─ fsoh_core.py
+│  ├─ fsoh_fractal_field.py
+│  ├─ fsoh_constraints.py
+│  └─ fsoh_simulation.py
 ├─ notebooks/
-│  └─ FSOH_demo.ipynb        # Example Jupyter notebook (planned)
+│  └─ FSOH_demo.ipynb
 └─ figures/
-   └─ *.png                  # Diagrams, visualizations (planned)
+   └─ *.png
 ```
+````  ← **這行反引號非常重要**（關閉 code block）
 
----
-
+````markdown
 ## 7. How to Use (Future Code Plan)
-
-Once the Python modules are added, a minimal usage pattern may look like:
 
 ```python
 from fsoh_core import SparseOriginModel
@@ -139,32 +111,24 @@ result = model.run_simulation()
 model.plot(result)
 ```
 
-This is **illustrative only** and does not represent a finalized API.
+(Example only; API subject to change.)
 
 ---
 
 ## 8. Documentation and Paper
 
-The formal exposition of FSOH, including:
+The formal exposition of FSOH is archived on Zenodo.
 
-- Detailed axioms  
-- Mathematical framework  
-- Conceptual implications for astrobiology  
-- Possible observational consequences  
-
-will be provided in the accompanying paper under `docs/` once uploaded.
-
-### DOI
-
-This hypothesis is formally archived on Zenodo:
-
+### DOI  
 **https://doi.org/10.5281/zenodo.17787315**
+
+The PDF will also be mirrored under `docs/` in this repository.
 
 ---
 
 ## 9. Citation
 
-If you use or reference the Fractal Sparse-Origin Hypothesis (FSOH), please cite:
+If you reference this hypothesis, please cite:
 
 **Author, A. (2025).  
 Fractal Sparse-Origin Hypothesis (FSOH): A Fractal Model of Life Emergence and Distribution.  
@@ -187,9 +151,5 @@ Zenodo. https://doi.org/10.5281/zenodo.17787315**
 
 ## 10. License / Rights
 
-By default, all rights are reserved by the author unless explicitly stated otherwise.
-
-If you wish to reuse or adapt the contents of this repository,  
-please contact the author or refer to future updates of this section.
-
----
+All rights are reserved by the author unless otherwise specified.  
+For reuse or adaptation, please contact the author or refer to future updates.
