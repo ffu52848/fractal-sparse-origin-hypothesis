@@ -154,28 +154,32 @@ The formal exposition of FSOH, including:
 
 will be provided in the accompanying paper under `docs/` once uploaded.
 
-If mirrored on Zenodo, the DOI will be added here.
+### DOI
+
+This hypothesis is formally archived on Zenodo:
+
+**https://doi.org/10.5281/zenodo.17787315**
 
 ---
 
-## 9. Citation (Template)
+## 9. Citation
 
-```text
-Author, A. (Year).
-Fractal Sparse-Origin Hypothesis (FSOH): A Fractal Model of Life Emergence and Distribution.
-Zenodo. https://doi.org/XXXXXXXXXXXX
-```
+If you use or reference the Fractal Sparse-Origin Hypothesis (FSOH), please cite:
 
-BibTeX:
+**Author, A. (2025).  
+Fractal Sparse-Origin Hypothesis (FSOH): A Fractal Model of Life Emergence and Distribution.  
+Zenodo. https://doi.org/10.5281/zenodo.17787315**
+
+### BibTeX
 
 ```bibtex
-@misc{FSOH_Year,
+@misc{FSOH_2025,
   author       = {Author, A.},
   title        = {Fractal Sparse-Origin Hypothesis (FSOH): A Fractal Model of Life Emergence and Distribution},
-  year         = {Year},
+  year         = {2025},
   publisher    = {Zenodo},
-  doi          = {10.XXXX/XXXXXXXXXXXX},
-  url          = {https://doi.org/10.XXXX/XXXXXXXXXXXX}
+  doi          = {10.5281/zenodo.17787315},
+  url          = {https://doi.org/10.5281/zenodo.17787315}
 }
 ```
 
